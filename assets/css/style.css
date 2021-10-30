@@ -48,6 +48,56 @@
     --z-fixed: 100;
 }
 
+/*lastfix*/
+
+.home__group,
+.home__details-img,
+.home__buttons,
+.home__data h3,
+.home__data h1,
+.section__title,
+.category__data,
+.about__data img,
+.trick__content,
+.discount__data,
+.discount__img,
+.new__content,
+.newsletter__container,
+.footer__container,
+.scrollup,
+.about__container {
+    cursor: pointer;
+}
+
+.nav__item::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #dad8d7dc;
+    display: block;
+    margin: auto;
+    transition: 0.3s ease;
+}
+
+.nav__item:hover::after {
+    width: 100%;
+}
+
+.category__container-text h3,
+.category__container-text p {
+    color: rgba(255, 255, 255, 0.549);
+}
+
+.category__container-text h3,
+.category__container-text p:hover {
+    color: rgb(255, 255, 255);
+}
+
+.about__data p:hover {
+    color: white;
+}
+
+
 
 /* Responsive typography */
 
